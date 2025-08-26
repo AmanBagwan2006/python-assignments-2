@@ -1,4 +1,6 @@
-numbers = list(range(1,51))
+
+numbers = range(1,51)
 
 for value in numbers:
-    print(value)
+    print("The sum of numbers from 1 to 50 is: ", sum(numbers))
+    break
