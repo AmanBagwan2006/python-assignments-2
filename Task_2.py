@@ -1,6 +1,5 @@
 
-numbers = range(1,51)
-
-for value in numbers:
-    print("The sum of numbers from 1 to 50 is: ", sum(numbers))
-    break
+count = 0
+for i in range(1,51):
+    count = count + i
+print(f"The sum of numbers from 1 to 50 is: {count}")
